@@ -9,19 +9,19 @@ int main (){
     {
             if (i%2 == 0 && i%3 == 0)
             {
-                printf("biru\n");
+                printf("BIRU\n");
             }
             else if (i% 3 == 0)
             {
-                printf("merah\n");
+                printf("MERAH\n");
             }
             else if (i% 2 == 0)
             {
-                printf("kuning\n");
+                printf("KUNING\n");
             }
             else if (i >= 10 && i == i % 10 )
             {
-                printf("hijau");
+                printf("HIJAU");
             }
             else
             {
