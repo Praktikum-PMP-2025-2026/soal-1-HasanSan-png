@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-    int N, j, k;
+    int N;
     printf("masukkan nilai n :");
     scanf("%d", &N);
 
@@ -19,18 +19,9 @@ int main (){
             {
                 printf("kuning\n");
             }
-            else if (i >= 10)
+            else if (i >= 10 && i == i % 10 )
             {
-                j = i%10;
-                k = i/10;
-                k = i + k;
-                k = k/2;
-                
-                if (k == 0)
-                {
-                    printf("hijau");
-                }
-                
+                printf("hijau");
             }
             else
             {
